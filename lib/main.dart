@@ -35,6 +35,13 @@ class Myaaaa extends StatelessWidget {
                 fontSize: 20
               )
             ),
+            SizedBox(
+              width:200,
+              child: Divider(
+                thickness: 1,
+                color: Colors.white
+              )
+            ),
             Card(
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
 
