@@ -9,7 +9,7 @@ class Myaaaa extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
@@ -20,7 +20,7 @@ class Myaaaa extends StatelessWidget {
               backgroundImage: AssetImage('Images/aaaa.jpg'),
               radius: 70,
              ),
-            const Text(
+            Text(
               'Cole Macabali',
               style: TextStyle(
                 fontFamily: 'Betlog',
@@ -29,7 +29,7 @@ class Myaaaa extends StatelessWidget {
                 color: Colors.white
               )
             ),
-            const Text(
+            Text(
               'App Developer',
               style: TextStyle(
                 fontSize: 20
@@ -46,7 +46,7 @@ class Myaaaa extends StatelessWidget {
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
 
               child: Padding(
-                padding: const EdgeInsets.all(5.0),
+                padding: EdgeInsets.all(5.0),
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
@@ -62,7 +62,7 @@ class Myaaaa extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
 
                 child: Padding(
-                  padding: const EdgeInsets.all(5.0),
+                  padding: EdgeInsets.all(5.0),
                   child: ListTile(
                     leading: Icon(
                         Icons.mail,
@@ -78,7 +78,7 @@ class Myaaaa extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
 
                 child: Padding(
-                  padding: const EdgeInsets.all(5.0),
+                  padding: EdgeInsets.all(5.0),
                   child: ListTile(
                     leading: Icon(
                         Icons.person,
@@ -94,7 +94,7 @@ class Myaaaa extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
 
                 child: Padding(
-                  padding: const EdgeInsets.all(5.0),
+                  padding: EdgeInsets.all(5.0),
                   child: ListTile(
                     leading: Icon(
                         Icons.person_add_alt,
